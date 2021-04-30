@@ -1,0 +1,117 @@
+body {
+    font-family: "Monrope", sans-serif;
+}
+
+/* Container */
+.container {
+    width:  1110px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Button */
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(1.1) ;
+}
+
+.button-medium {
+    border-radius: 8px;
+    padding: 10px 26px;
+    height: 40px;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button-pink {
+    background-color: #f1e4ff; 
+    color: #8c30f5;
+}
+
+.button-purple {
+    background-color: #8c30f5;
+    color: #f1e4ff;
+}
+
+
+ 
+/* Header */
+.header,
+.header__buttons,
+.header__menu {
+    display: flex;
+}
+
+.header__buttons {
+    margin-left: auto;
+}
+
+.header {
+    align-items: center;
+    height: 72px;
+}
+  
+.header__logo {
+    margin-right: 32px;
+}
+ 
+.header__menu li {
+    margin-right: 32px;
+}
+
+.header__menu li:last-child {
+    margin-right: 0;
+}
+
+.header__menu li a {
+    color:black;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header__menu li a:hover {
+    color: #8c30f5;
+}
+
+.header__buttons > .button:first-of-type {
+    margin-right: 14px;
+}
+
+/* Hero-1 */
+.hero-1 {
+    height: 866px;
+    background: linear-gradient(#d9e8ef, #eaf2f5);
+}
+
+.hero-1__background-house {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: 0;
+    width: 735px;
+    height: 866px;
+    background: url(/img/hero-1.png);
+}                        
+
+.hero-1__text {
+
+}
+
+.hero-1__text h1 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.36;
+}
