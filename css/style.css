@@ -86,7 +86,7 @@ body {
     color: #8c30f5;
 }
 
-.header__buttons > .button:first-of-type {
+.header__buttons .button:first-of-type {
     margin-right: 14px;
 }
 
