@@ -10,6 +10,41 @@ body {
   z-index: 1;
 }
 
+/* Buttons */
+.button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(1);
+}
+
+.button-medium {
+  border-radius: 8px;
+  padding: 10px 26px;
+  height: 40px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button-pink {
+  background-color: #f1e4ff;
+  color: #8c30f5;
+}
+
+.button-purple {
+  background-color: #8c30f5;
+  color: #ffffff;
+}
+
 /* Header */
 
 /* Hero-1 */
@@ -27,4 +62,3 @@ body {
   background-image: url("../img/hero-1.png");
   z-index: 0;
 }
-
