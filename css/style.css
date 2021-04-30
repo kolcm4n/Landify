@@ -1,0 +1,31 @@
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+/* Container */
+.container {
+    width: 1110px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Header */
+
+
+
+/* Hero-1 */
+.hero-1 {
+    height: 866px;
+    background: linear-gradient(#d9e8ef, #eaf2f5);
+}
+
+.hero-1__background-house {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 735px;
+    height: 866px;
+    background-image: url('../image/house.png');
+    z-index: 0;
+}
