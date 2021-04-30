@@ -107,3 +107,33 @@ color: #8c30f5;
     background-image: url('../image/house.png');
     z-index: 0;
 }
+
+.hero-1__text {
+    margin-top: 220px;
+}
+
+.hero-1__text p {
+    font-size: 18px;
+    line-height: 1.75;
+    margin-bottom: 32px;
+}
+
+.hero-1__text h1 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.36;
+    margin-bottom: 16px;
+}
+
+.hero-1__text a {
+    display: inline-block;
+}
+
+.hero-1__text a img {
+    display: inline-block;
+transition: transform 0.2s ease;
+}
+
+.hero-1__text a:hover img {
+transform: scale(1.05);
+}
