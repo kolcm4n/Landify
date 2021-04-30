@@ -3,6 +3,7 @@ body {
 }
 
 /* Container */
+
 .container {
     width: 1110px;
     margin: auto;
@@ -12,8 +13,49 @@ body {
 
 /* Header */
 
+.header,
+.header__menu,
+.header__buttons {
+    display: flex;
+}
+
+.header__buttons {
+margin-left: auto;
+}
+
+.header {
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 32px;
+}
+
+.header__menu li {
+    margin-right: 32px;
+}
+
+.header__menu li:last-child {
+    margin-right: 0;
+}
+
+.header__menu li a {
+    color: #18191F;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header__menu li a:hover {
+    color: #8c30f5;
+}
+
+.header__buttons .button:first-of-type {
+    margin-right: 14px;
+}
 
 /* Buttons */
+
 .button {
 background: none;
 border: none;
@@ -49,6 +91,7 @@ color: #8c30f5;
 }
 
 /* Hero-1 */
+
 .hero-1 {
     height: 866px;
     background: linear-gradient(#d9e8ef, #eaf2f5);
