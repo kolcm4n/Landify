@@ -25,6 +25,7 @@ margin-left: auto;
 
 .header {
     align-items: center;
+    height: 72px;
 }
 
 .header__logo {
